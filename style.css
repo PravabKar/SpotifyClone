@@ -119,6 +119,8 @@ i {
     justify-content: space-between;
     align-items: center;
     border-radius: 34px;
+    white-space: nowrap;
+    overflow: scroll;
 }
 
 
@@ -162,5 +164,15 @@ i {
 @media only screen and (max-width: 1100px) {
     body {
       background-color: white;
+    }
+    .container {
+        height: 80vh;
+        width: 100%;
+    }
+    .songList {
+        width: 100%;
+    }
+    .songItemContainer {
+        width: 100%;
     }
   }
